@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Procedural Recipes</title>
+    <link>http://diegoarjz.github.io/</link>
+    <description>Recent content on Procedural Recipes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 07 Sep 2021 18:16:19 +0100</lastBuildDate><atom:link href="http://diegoarjz.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Creating a Simple Building</title>
+      <link>http://diegoarjz.github.io/posts/creating-a-simple-building/</link>
+      <pubDate>Tue, 07 Sep 2021 18:16:19 +0100</pubDate>
+      
+      <guid>http://diegoarjz.github.io/posts/creating-a-simple-building/</guid>
+      
+        <description>I decided to start my series of posts with an example of how we can create a simple building using pagoda. Hopefully this will help understand how pagoda can be used to generate 3D content.
+Pagoda has a graph based approach to defining the rules with which we can generate our models. This means that nodes in this graph create, modify or otherwise perform any sort of operation on our objects and edges define the flow of objects between nodes.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

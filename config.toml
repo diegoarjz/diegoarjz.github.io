@@ -1,0 +1,56 @@
+baseURL = 'http://diegoarjz.github.io/'
+languageCode = 'en-us'
+title = 'Procedural Recipes'
+theme = 'anatole'
+googleAnalytics = "UA-65082977-3"
+
+[markup]
+    defaultMarkdownHandler = "goldmark"
+
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+title = 'Procedural Recipes'
+description = 'Procedural Recipes'
+author = 'Diego Jesus'
+profilePicture = '/images/ProfilePic.jpg'
+contentRatio = 0.8
+
+[[params.socialIcons]]
+  icon = "fab fa-linkedin"
+  title = "Linkedin"
+  url = "https://www.linkedin.com/in/djesus/"
+[[params.socialIcons]]
+  icon = "fab fa-github"
+  title = "GitHub"
+  url = "https://github.com/diegoarjz"
+[[params.socialIcons]]
+  icon = "fab fa-twitter"
+  title = "Twitter"
+  url = "https://twitter.com/diegoarjz"
+[[params.socialIcons]]
+  icon = "fas fa-envelope"
+  title = "e-mail"
+  url = "mailto:diego.a.r.jz@gmail.com"
+
+[menu]
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "About"
+  weight = 300
+  identifier = "about"
+  url = "/about/"
+
+  [[menu.main]]
+  name = "CV"
+  weight = 300
+  identifier = "cv"
+  url = "/cv/"
+

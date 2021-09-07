@@ -1,10 +1,8 @@
 ---
-layout: post
-title:  "Creating a Simple Building with Pagoda"
-date:   2020-04-28 12:43:00 +0100
-categories: example pagoda
+title: "Creating a Simple Building"
+date: 2021-09-07T18:16:19+01:00
+draft: false
 ---
-
 
 I decided to start my series of posts with an example of how we can create
 a simple building using [pagoda](https://github.com/diegoarjz/pagoda).
@@ -20,7 +18,7 @@ language that pagoda provides.
 
 So let's get started with our building which, in the end, will look something like the following image.
 
-![Simple Building Final](/assets/images/posts/creating-a-simple-building/final.png)
+![Simple Building Final](/images/posts/creating-a-simple-building/final.png)
 
 The first step is to create a graph file and edit it with your favourite text editor. I creatively named this file `simple_building.pgd` and added the following:
 
